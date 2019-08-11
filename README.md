@@ -30,7 +30,7 @@ For these example values you'll pass `https://dev.azure.com/mycompany/myproject/
 
 The `--devops-sourcefile-url-prefix` option will create URLs by prefixing the given parameter in front of each source file.
 
-*Defined in* `src/testfile.ts` will link to `https://dev.azure.com/[tenant]/[project]/_git/[repo]?path=%2Fsrc%2Ftestfile.ts?line=[line]`.
+*Defined in* `src/testfile.ts:123` will link to `https://dev.azure.com/[tenant]/[project]/_git/[repo]?path=%2Fsrc%2Ftestfile.ts&line=123`.
 
 
 #### Advanced Mappings
@@ -52,7 +52,7 @@ The `your-sourcefile-map.json` structure is:
       },     
       {
         "pattern": "^",
-        "replace": "https://dev.azure.com/mycompany/myproject/_git/main-project?path=%2F"
+        "replace": "https://dev.azure.com/mycompany/myproject/_git/main-project?path=%2F",
         "version": "GBmaster"
       }
     ]
