@@ -1,5 +1,6 @@
 MIT License
 
+Copyright (c) 2019 Sebastian Hübner
 Copyright (c) 2017 – 2019 Gerard Delmàs
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
