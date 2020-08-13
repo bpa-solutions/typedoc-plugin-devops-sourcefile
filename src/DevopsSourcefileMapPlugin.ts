@@ -24,8 +24,8 @@ export class DevopsSourcefileMapPlugin extends ConverterComponent {
 
     private onBegin(): void {
         // read options parameters
-        const mapRelativePath = this.readStringOption("sourcefile-url-map");
-        const urlPrefix = this.readStringOption("sourcefile-url-prefix");
+        const mapRelativePath = this.readStringOption("devops-sourcefile-url-map");
+        const urlPrefix = this.readStringOption("devops-sourcefile-url-prefix");
 
         if (!mapRelativePath && !urlPrefix) {
             return;

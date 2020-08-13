@@ -18,8 +18,8 @@ let DevopsSourcefileMapPlugin = class DevopsSourcefileMapPlugin extends componen
     }
     onBegin() {
         // read options parameters
-        const mapRelativePath = this.readStringOption("sourcefile-url-map");
-        const urlPrefix = this.readStringOption("sourcefile-url-prefix");
+        const mapRelativePath = this.readStringOption("devops-sourcefile-url-map");
+        const urlPrefix = this.readStringOption("devops-sourcefile-url-prefix");
         if (!mapRelativePath && !urlPrefix) {
             return;
         }
