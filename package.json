@@ -19,10 +19,7 @@
     "typedoc": ">=0.16.0"
   },
   "devDependencies": {
-    "@types/fs-extra": "^8.0.0",
     "@types/node": "^13.9.0",
-    "fs-extra": "^8.1.0",
-    "path": "^0.12.7",
     "typedoc": "^0.16.11",
     "typescript": "^3.7.5"
   },
